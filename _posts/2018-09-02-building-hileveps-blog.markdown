@@ -19,6 +19,10 @@ tags: jekyll
 
 使用的主题是：[H2O](https://github.com/kaeyleo/jekyll-theme-H2O), 作者：[廖柯宇](http://liaokeyu.com/), 特此感谢！
 
+## 感谢
+
+- Logo制作：谢梦涛
+
 ## TODOs
 
 - 建立团队介绍页面
