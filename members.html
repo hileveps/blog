@@ -1,0 +1,53 @@
+---
+title: Members
+layout: default
+---
+
+{% include header.html %}
+
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>Members</h2>
+</div>
+
+<main class="members-content">
+    {% if site.data.members.size > 0 %}
+    <ul class="members-list">
+      {% for member in site.data.members %}
+      {% assign author = member[1] %}
+
+      <li class="member-wrapper">
+        <div class="">
+            <section class="author-card">
+                <div class="avatar">
+                    <img src="{{ author.avatar | prepend: site.baseurl }}" alt="">
+                </div>
+                <div class="author-name" rel="author">{{ author.name }}</div>
+                <div class="bio">
+                    <p>{{ author.bio }}</p>
+                </div>
+                {% if author.sns.size > 0 %}
+                <ul id="sns-links" class="sns-links">
+                    {% for s in author.sns %}
+                    <li>
+                        <a href="{{ s[1] }}" target="_blank">
+                            <i class="iconfont icon-{{ s[0] }}"></i>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </section>
+
+            <section class="tags-card">
+              {{ author.desc }}
+            </section>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+</main>
+
+<div style="clear:both;padding-top:30px;"></div>
+    
+{% include footer.html %}

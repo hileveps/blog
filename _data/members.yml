@@ -1,0 +1,9 @@
+dairugang:
+  name: David
+  avatar: '/assets/img/members/dairugang.jpg'
+  bio: 伪全栈工程师
+  desc: iOS Developer, Ruby on Rails, Java, Linux
+  sns:
+    github: https://www.github.com/makeiteasy
+    zhihu: https://makeiteasy.site
+    weibo: https://makeiteasy.site

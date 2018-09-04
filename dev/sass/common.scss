@@ -881,3 +881,33 @@
         color: #61BDCF;
     }
 }
+
+.members-content {
+    width: 780px;
+    margin: 20px auto 0;
+}
+.members-list {
+  .member-wrapper {
+    width: 240px;
+    height: 360px;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    @include cardStyle;
+    section {
+        padding: 30px 0;
+        border-bottom: 1px solid #E7EAF1;
+        &:first-child {
+            padding-top: 0;
+        }
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .tag {
+            margin-bottom: 8px;
+        }
+    }
+
+  }
+}

@@ -11,6 +11,7 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
+  members: '/members.html'
   tags: '/tags.html'
 
 # Footer
