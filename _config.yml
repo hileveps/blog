@@ -3,7 +3,7 @@ title: 'Hileveps技术博客'
 description: '但行好事，莫问前程'
 keyword: 'hileveps, 慧伦普斯, 物联网, 生物识别, 掌静脉'
 # url: 'http://blog.hileveps.com' # your host
-url: 'http://localhost:4000' # your host
+url: 'http://hileveps.github.io/blog' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
