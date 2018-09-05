@@ -33,7 +33,7 @@ nightMode: false
 # Comments 评论功能
 comments:
   disqus: false
-  # disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  # disqus_url: 'https://disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -52,9 +52,7 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/hileveps'
-  # weibo: '//weibo.com/lovecolcol'
-  # juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  # instagram: '//www.instagram.com/steveliaocn'
+  # weibo: ''
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
