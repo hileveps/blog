@@ -5,8 +5,18 @@ dairugang:
   desc: iOS Developer, Ruby on Rails, Java, Linux
   sns:
     github: https://www.github.com/makeiteasy
-    zhihu: https://makeiteasy.site
-    weibo: https://makeiteasy.site
+    medium: https://makeiteasy.site
+    facebook: https://www.facebook.com/dairugang
+    twitter: https://www.twitter.com/dairugang
+    # instagram
+    # juejin
+    # douban
+    # dribble
+    # jianshu
+    # uicn
+    # linkedin
+    # zhihu: https://makeiteasy.site
+    # weibo: https://makeiteasy.site
 zhanglei:
   name: 张磊
   avatar: '/assets/img/members/zhanglei.jpg'
