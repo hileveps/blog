@@ -7,3 +7,53 @@ dairugang:
     github: https://www.github.com/makeiteasy
     zhihu: https://makeiteasy.site
     weibo: https://makeiteasy.site
+zhanglei:
+  name: 张磊
+  avatar: '/assets/img/members/zhanglei.jpg'
+  bio: 我不存在
+  desc: 代码制造者/轻度代码洁癖
+sunxun:
+  name: 孙逊
+  avatar: '/assets/img/members/sunxun.jpg'
+  bio: 松熊
+  desc: Get a Dictionary!
+mateng:
+  name: 马腾
+  avatar: '/assets/img/members/mateng.jpg'
+  bio: Pokhara
+  desc: 非典型性程序员，一定不是java程序员里oc最好的
+dongying:
+  name: 董莹
+  avatar: '/assets/img/members/dongying.jpg'
+  bio: Aquarius
+  desc: 测试天马行空/追求属于自己独一无二的生活方式是瓶子的生活态度
+duanhonghong:
+  name: 段红红
+  avatar: '/assets/img/members/duanhonghong.jpg'
+  bio: 夏末沫
+  desc: Nothing is impossible for a willing heart.
+xiemengtao:
+  name: 谢梦涛
+  avatar: '/assets/img/members/xiemengtao.jpg'
+  bio: 有朝
+  desc: 寻找简单，宁静和快乐的生活
+zhangjiangang:
+  name: 张建刚
+  avatar: '/assets/img/members/zhangjiangang.jpg'
+  bio: Myselves
+  desc: Hello World!
+yanglei:
+  name: 杨磊
+  avatar: '/assets/img/members/yanglei.jpg'
+  bio: Mike
+  desc: 佛系
+wangli:
+  name: 王立
+  avatar: '/assets/img/members/wangli.jpg'
+  bio: naruto
+  desc: 大道至简 道法自然
+gaoshuai:
+  name: 高帅
+  avatar: '/assets/img/members/gaoshuai.jpg'
+  bio: 随遇而安
+  desc: 保持一个平常心
