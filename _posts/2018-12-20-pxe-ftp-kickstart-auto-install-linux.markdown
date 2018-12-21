@@ -73,13 +73,13 @@ DHCP服务的作用就是为局域网的客户机分配ip地址，并且告诉�
 
 - 安装dhcp服务 
 
-```shell
+```bash
 yum install dhcp
 ```
 
 - 设置配置文件
 
-```shell
+```conf
 # cat /etc/dhcp/dhcpd.conf
 
 #
@@ -114,7 +114,7 @@ subnet 192.168.10.0 netmask 255.255.255.0 {
 
 - 将dhcpd服务设置为开机启动
 
-```shell
+```bash
 systemctl restart dhcpd
 systemctl enable dhcpd
 ```
@@ -128,13 +128,13 @@ TFTP是一种基于UDP协议的简单文件传输协议，所以不需要进行�
 
 - 安装tftp服务器
 
-```shell
+```bash
 yum install tftp-server
 ```
 
 - 配置文件
 
-```shell
+```config
 # cat /etc/xinetd.d/tftp
 
 # default: off
