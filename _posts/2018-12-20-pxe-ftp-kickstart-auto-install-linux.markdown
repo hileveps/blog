@@ -400,7 +400,6 @@ keyboard --vckeymap=cn --xlayouts='cn'
 # Root password
 # password: 123456
 # rootpw --iscrypted $1$tczqctJg$tQbT39eH4XwhvmKwh9tLz/
-# password: hileveps9527
 rootpw --iscrypted $1$zY8JPQGF$/0SuPWCYhf3QbRQRe/nv90
 # System language
 lang zh_CN.UTF-8
