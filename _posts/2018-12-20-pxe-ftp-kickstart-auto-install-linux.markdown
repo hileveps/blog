@@ -25,7 +25,7 @@ PXE可以引导多种操作系统，如：Windows95/98/2000/windows2003/windows2
 
 ## KickStart介绍
 
-KickStart是一种无人职守安装方式。KickStart的工作原理是通过记录典型的安装过程中所需人工干预填写的各种参数，
+KickStart是一种无人值守安装方式。KickStart的工作原理是通过记录典型的安装过程中所需人工干预填写的各种参数，
 并生成一个名为ks.cfg的文件；在其后的安装过程中（不只局限于生成KickStart安装文件的机器）当出现要求填写参数的情况时，
 安装程序会首先去查找KickStart生成的文件，当找到合适的参数时，就采用找到的参数，当没有找到合适的参数时，
 才需要安装者手工干预。这样，如果KickStart文件涵盖了安装过程中出现的所有需要填写的参数时，
@@ -51,7 +51,7 @@ KickStart是一种无人职守安装方式。KickStart的工作原理是通过�
 
 1. 客户机接上网线后，从网口启动
 1. 通过udp寻找dhcp服务
-1. dhcp服务器给客户机分配ip，并告知他在那里请求 `pxelinux.0`
+1. dhcp服务器给客户机分配ip，并告知他在哪里请求 `pxelinux.0`
 1. 客户机请求pxelinux.0文件并执行
 1. 客户机请求配置文件pxelinux.cfg(主要是里面的default文件)
 1. 客户机请求vmlinuz等文件
@@ -378,7 +378,7 @@ firewall-cmd --reload
 setsebool -P ftpd_connect_all_unreserved=on
 ```
 
-> 一定要注意ftp目录的权限问题，我在挂在了新的硬盘后，没有检查文件夹的权限，导致客户端读取不到响应的仓库数据。
+> 一定要注意ftp目录的权限问题，我在挂载了新的硬盘后，没有检查文件夹的权限，导致客户端读取不到相应的仓库数据。
 
 ## 创建KickStart应答文件
 
@@ -454,7 +454,7 @@ wqy-zenhei-fonts
 
 - KickStart文件也可以通过GUI程序`system-config-kickstart`来生成
 
-- 如何生成rootpw以及user用的password
+- 如何生成rootpw以及user用的password，可以参考如下使用pwkickstart工具来生成
 
 使用pwkickstart可以生成ks文件中用到密码的部分
 
