@@ -8,6 +8,8 @@ cover: '/images/2020-02-19-git-commit-message-rule/cover.jpg'
 tags: git
 ---
 
+此文章同时发布于[代如刚的blog](http://www.makeiteasy.site)，[点击查看](http://www.makeiteasy.site/2020/02/19/git-commit-message-rule.html)
+
 ## 为什么要有规范
 
 作为团队协作工具，Git的提交message非常必要，如果写的比较规范，可以方便查看代码库是如何演进的。如果写的五花八门，那么对将来有可能发生的版本回溯等会造成很大的干扰。
